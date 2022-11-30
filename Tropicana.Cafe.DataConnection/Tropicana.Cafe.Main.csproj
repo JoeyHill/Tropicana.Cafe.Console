@@ -51,6 +51,7 @@
     <Compile Include="Helpers\DataExtensions.cs" />
     <Compile Include="Helpers\ExceptionExtension.cs" />
     <Compile Include="Helpers\HelperFunctions.cs" />
+    <Compile Include="Helpers\ImageResizer.cs" />
     <Compile Include="Helpers\NumberExtensions.cs" />
     <Compile Include="Helpers\ObjectExtensions.cs" />
     <Compile Include="Helpers\StringExtensions.cs" />

@@ -37,7 +37,7 @@ namespace Tropicana.Cafe.Forms
 
         #region Settings and Variables
         //ToDo: Replace with settings
-        private int WaitMilliseconds = 500;
+        private int WaitMilliseconds = 750;
         private int MaxHistory = 10;
         private string BuildingSetting = MainSettings.Default.Building;
 
@@ -160,6 +160,8 @@ namespace Tropicana.Cafe.Forms
             else
             {
                 ClearPhoto();
+                RemainingCountLabel.Text = "";
+                pictureBox2.BackColor = RemainingCountLabel.BackColor = Color.Red;
             }
             #region Debug
             //Debug.WriteLine(String.Format("Entry: {0}\nActive Meal: {1}", ActiveStudent.EntryID, ActiveStudent.ActiveMeal.EntryMealID));

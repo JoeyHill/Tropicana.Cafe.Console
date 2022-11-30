@@ -66,6 +66,14 @@ namespace Tropicana.Cafe.Main.Validators
         /// <returns></returns>
         private static ValidationResponse SinglePlanValidation(EntryMeal meal)
         {
+            if (Settings.MainSettings.Default.RestrictToBuilding)
+            {
+                string Building = Globals.RoomLocation[meal.Parent.ActiveBooking.RoomLocationID];
+                if(Building != Settings.MainSettings.Default.Building)
+                {
+                    return new ValidationResponse(false, Globals.BADHALL, meal);
+                }
+            }
             List<EntryCustomField> cf = meal.Parent.CustomFields;
             EntryCustomField hold = cf.Where(c => c.CustomFieldDefinitionID == 44).FirstOrDefault();
             EntryCustomField reason = cf.Where(c => c.CustomFieldDefinitionID == 77).FirstOrDefault();

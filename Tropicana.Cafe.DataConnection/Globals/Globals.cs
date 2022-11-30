@@ -37,7 +37,7 @@ namespace Tropicana.Cafe.Main
         public const string TG_BUILDING = "Tropicana Gardens";
         public const string TDN_BUILDING = "Tropicana Del Norte";
 
-        public static int DININGHALL(string input){
+        public static int DININGHALL(string input) {
             switch (input)
             {
                 case "Tropicana Gardens":
@@ -51,5 +51,14 @@ namespace Tropicana.Cafe.Main
 
 
         public static readonly MealSetupEnum[] COUNTEDMEALPLANS = { MealSetupEnum.NumberMeals, MealSetupEnum.NumberPerMeal, MealSetupEnum.Allowance };
+
+        public static readonly Dictionary<int, string> RoomLocation = new Dictionary<int, string>()
+        {
+            { 2, "Tropicana Del Norte" },
+            { 3, "Tropicana Villas" },
+            { 4, "Tropicana Gardens" },
+            { 0, "(Unallocated)" },
+            { 6, "Tropicana Summer" }
+        };
     }
 }

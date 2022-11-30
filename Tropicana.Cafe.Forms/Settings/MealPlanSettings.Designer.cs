@@ -56,6 +56,7 @@
             this.mTestCon = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.enforceSingleCheck = new System.Windows.Forms.CheckBox();
+            this.restrictToBuilding = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -327,6 +328,7 @@
             mainSettings1.MealPass = "new5horizon7";
             mainSettings1.MealServer = "192.168.1.164\\SQLEXPRESS";
             mainSettings1.MealUser = "sa";
+            mainSettings1.RestrictToBuilding = false;
             mainSettings1.SettingsKey = "";
             mainSettings1.StuDB = "snRez1_Main";
             mainSettings1.StuPass = "Srez4dm1n";
@@ -341,6 +343,7 @@
             this.checkBox1.TabIndex = 15;
             this.checkBox1.Text = "Commit Meals";
             this.checkBox1.UseVisualStyleBackColor = true;
+            
             // 
             // enforceSingleCheck
             // 
@@ -352,12 +355,26 @@
             this.enforceSingleCheck.Text = "Enforce Single Meal";
             this.enforceSingleCheck.UseVisualStyleBackColor = true;
             // 
+            // restrictToBuilding
+            // 
+            this.restrictToBuilding.AutoSize = true;
+            this.restrictToBuilding.Checked = mainSettings1.RestrictToBuilding;
+            //this.restrictToBuilding.DataBindings.Add(new System.Windows.Forms.Binding("Checked", mainSettings1, "RestrictToBuilding", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.restrictToBuilding.Location = new System.Drawing.Point(135, 267);
+            this.restrictToBuilding.Name = "restrictToBuilding";
+            this.restrictToBuilding.Size = new System.Drawing.Size(118, 17);
+            this.restrictToBuilding.TabIndex = 19;
+            this.restrictToBuilding.Text = "Restrict To Building";
+            this.restrictToBuilding.UseVisualStyleBackColor = true;
+            
+            // 
             // MealPlanSettings
             // 
             this.AcceptButton = this.SaveButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(426, 417);
+            this.Controls.Add(this.restrictToBuilding);
             this.Controls.Add(this.enforceSingleCheck);
             this.Controls.Add(this.mTestCon);
             this.Controls.Add(this.sTestCon);
@@ -409,5 +426,6 @@
         private System.Windows.Forms.Button sTestCon;
         private System.Windows.Forms.Button mTestCon;
         private System.Windows.Forms.CheckBox enforceSingleCheck;
+        private System.Windows.Forms.CheckBox restrictToBuilding;
     }
 }

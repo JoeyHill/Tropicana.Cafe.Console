@@ -178,5 +178,17 @@ namespace Tropicana.Cafe.Main.Settings {
                 this["StuServer"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool RestrictToBuilding {
+            get {
+                return ((bool)(this["RestrictToBuilding"]));
+            }
+            set {
+                this["RestrictToBuilding"] = value;
+            }
+        }
     }
 }

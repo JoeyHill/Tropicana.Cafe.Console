@@ -44,6 +44,10 @@ namespace Tropicana.Cafe.Forms.Settings
             enforceSingleCheck.DataBindings.Add(new System.Windows.Forms.Binding("Checked", MainSettings.Default, "EnforceSingleMeal", true, DataSourceUpdateMode.OnPropertyChanged));
             enforceSingleCheck.Tag = "EnforceSingleMeal";
 
+            restrictToBuilding.Checked = MainSettings.Default.RestrictToBuilding;
+            restrictToBuilding.DataBindings.Add(new System.Windows.Forms.Binding("Checked", MainSettings.Default, "RestrictToBuilding", true, DataSourceUpdateMode.OnPropertyChanged));
+            restrictToBuilding.Tag = "RestrictToBuilding";
+
         }
 
         private void UpdateSetting(string Setting, string Value)
@@ -151,6 +155,16 @@ namespace Tropicana.Cafe.Forms.Settings
             }
 
             MessageBox.Show(result);
+        }
+
+        private void restrictToBuilding_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

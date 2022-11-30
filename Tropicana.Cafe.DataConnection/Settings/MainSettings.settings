@@ -41,5 +41,8 @@
     <Setting Name="StuServer" Type="System.String" Scope="User">
       <Value Profile="(Default)">starrezsql</Value>
     </Setting>
+    <Setting Name="RestrictToBuilding" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
