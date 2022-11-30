@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Tropicana.Cafe.Main.Settings" GeneratedClassName="MainSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Building" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tropicana Gardens</Value>
+    </Setting>
+    <Setting Name="StuDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">snRez1_Main</Value>
+    </Setting>
+    <Setting Name="StuUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">remote</Value>
+    </Setting>
+    <Setting Name="StuPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Srez4dm1n</Value>
+    </Setting>
+    <Setting Name="MealServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.1.164\SQLEXPRESS</Value>
+    </Setting>
+    <Setting Name="MealDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TropicanaMeals</Value>
+    </Setting>
+    <Setting Name="MealUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">remote</Value>
+    </Setting>
+    <Setting Name="MealPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Srez4dm1n</Value>
+    </Setting>
+    <Setting Name="CommitMeals" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EnforceSingleMeal" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MailUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">frontdesk@tropicanastudentliving.com</Value>
+    </Setting>
+    <Setting Name="MailPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tr0p1cana</Value>
+    </Setting>
+    <Setting Name="StuServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">starrezsql</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tropicana.Cafe.Console", "Tropicana.Cafe.Console\Tropicana.Cafe.Console.csproj", "{A9A327CB-704C-44A4-A259-77B5C95E5C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tropicana.Cafe.Main", "Tropicana.Cafe.DataConnection\Tropicana.Cafe.Main.csproj", "{1A78D5BA-6767-4490-9217-8DC2D5EA06DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tropicana.Cafe.MainTests", "Tropicana.Cafe.MainTests\Tropicana.Cafe.MainTests.csproj", "{CD3BFFAA-177F-49B8-BC4C-626F17C2787B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tropicana.Cafe.Forms", "Tropicana.Cafe.Forms\Tropicana.Cafe.Forms.csproj", "{24B7E2A1-151F-4104-B2CD-E22E51FC6993}"
+EndProject
+Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9A327CB-704C-44A4-A259-77B5C95E5C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A327CB-704C-44A4-A259-77B5C95E5C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A327CB-704C-44A4-A259-77B5C95E5C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A327CB-704C-44A4-A259-77B5C95E5C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A78D5BA-6767-4490-9217-8DC2D5EA06DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A78D5BA-6767-4490-9217-8DC2D5EA06DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A78D5BA-6767-4490-9217-8DC2D5EA06DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A78D5BA-6767-4490-9217-8DC2D5EA06DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3BFFAA-177F-49B8-BC4C-626F17C2787B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3BFFAA-177F-49B8-BC4C-626F17C2787B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3BFFAA-177F-49B8-BC4C-626F17C2787B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3BFFAA-177F-49B8-BC4C-626F17C2787B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B7E2A1-151F-4104-B2CD-E22E51FC6993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B7E2A1-151F-4104-B2CD-E22E51FC6993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B7E2A1-151F-4104-B2CD-E22E51FC6993}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B7E2A1-151F-4104-B2CD-E22E51FC6993}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
