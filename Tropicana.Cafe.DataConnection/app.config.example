@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Tropicana.Cafe.Main.Settings.MainSettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <userSettings>
+        <Tropicana.Cafe.Main.Settings.MainSettings>
+            <setting name="Building" serializeAs="String">
+                <value>Tropicana Gardens</value>
+            </setting>
+            <setting name="StuDB" serializeAs="String">
+                <value>snRez1_Main</value>
+            </setting>
+            <setting name="StuUser" serializeAs="String">
+                <value>remote</value>
+            </setting>
+            <setting name="StuPass" serializeAs="String">
+                <value></value>
+            </setting>
+            <setting name="MealServer" serializeAs="String">
+                <value>192.168.1.164\SQLEXPRESS</value>
+            </setting>
+            <setting name="MealDB" serializeAs="String">
+                <value>TropicanaMeals</value>
+            </setting>
+            <setting name="MealUser" serializeAs="String">
+                <value>remote</value>
+            </setting>
+            <setting name="MealPass" serializeAs="String">
+                <value></value>
+            </setting>
+            <setting name="CommitMeals" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="EnforceSingleMeal" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="MailUser" serializeAs="String">
+                <value>frontdesk@tropicanastudentliving.com</value>
+            </setting>
+            <setting name="MailPass" serializeAs="String">
+                <value></value>
+            </setting>
+            <setting name="StuServer" serializeAs="String">
+                <value>starrezsql</value>
+            </setting>
+            <setting name="RestrictToBuilding" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </Tropicana.Cafe.Main.Settings.MainSettings>
+    </userSettings>
+</configuration>
